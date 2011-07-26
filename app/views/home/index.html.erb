@@ -1,0 +1,18 @@
+<h4>Add the Jobby button and click it to save a job listing from any site.</h4> 
+<h2> 
+	Drag this into your bookmarklets toolbar:
+	<a href="javascript: if(!(document.getElementById('ww_saving') || window.location.href.indexOf('wantworthy.com') &gt; -1 || window.location.href.match('about:blank'))){ var ifr = document.createElement('iframe'); ifr.id = &quot;ww_saving&quot;; ifr.setAttribute('style', &quot;width: 255px; height: 400px; position: fixed; top: 0; right: 0px; z-index: 10000001; margin: 0pt; background-color: white; border: 2px solid #202020 !important; overflow: hidden;&quot;); ifr.src = &quot;http://wantworthy.com/saving.html&quot;; document.body.appendChild( ifr ); void((function(){var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('src','http://wantworthy.com/products.js?url='+encodeURIComponent(document.location.href)+'&amp;auth_token=6gsmhM2wTTVJL3coZsWH&amp;noCache='+new Date().getTime());document.body.appendChild(e)})())}
+	" id="i_want_this_css3" onclick="return false;">+Jobby</a> 
+</h2>
+
+<li>Click this link: <a href="javascript:(function(){instacalc_script=document.createElement('SCRIPT');instacalc_script.type='text/javascript';instacalc_script.src='http://instacalc.com/gadget/instacalc.bookmarklet.js?x='+(Math.random());document.getElementsByTagName('head')[0].appendChild(instacalc_script);})();"style="border: 2px solid #999; padding: 2px; background: #cacaca; font-weight: bold;">instacalc bookmarklet</a>. </li>
+
+<li>A cleaner bookmarklet link:
+	<a href="javascript:(function(){jobby_script=document.createElement('SCRIPT');jobby_script.type='text/javascript';jobby_script.src='http://dl.dropbox.com/u/1906900/jobby.js';document.getElementsByTagName('head')[0].appendChild(jobby_script);})();" style="border: 2px solid #999; padding: 2px; background: #cacaca; font-weight: bold;">
+		jobby v0.1
+	</a>
+</li>
+
+<a href="javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'http://dl.dropbox.com/u/1906900/jobby.js?noCache='+new Date().getTime()');document.body.appendChild(jsCode);}());">Linkster</a>
+
+<a href="javascript: alert('Linky text');">Linky</a>
